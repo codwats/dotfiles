@@ -9,14 +9,10 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
-
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "catppuccin-mocha",
     },
   },
 
@@ -38,17 +34,79 @@ return {
     config = true,
   },
 
-  -- override nvim-cmp and add cmp-emoji
+  -- Add `nvim-highlight-colors` for color highlighting with virtual text
   {
-    "hrsh7th/nvim-cmp",
-    dependencies = { "hrsh7th/cmp-emoji" },
-    ---@param opts cmp.ConfigSchema
-    opts = function(_, opts)
-      table.insert(opts.sources, { name = "emoji" })
+    "brenoprata10/nvim-highlight-colors",
+    event = "VeryLazy",
+    config = function()
+      require("nvim-highlight-colors").setup({
+        render = "virtual", -- Use virtual text for color swatch
+        virtual_symbol = "■", -- Square symbol for color swatch
+        virtual_symbol_prefix = "", -- No prefix before the color swatch
+        virtual_symbol_suffix = " ", -- Space after the color swatch
+        virtual_symbol_position = "eow", -- Display the color inline with text
+      })
     end,
   },
 
+  -- Use <tab> for completion and snippets (supertab
+  -- first: disable default <tab> and <s-tab> behavior in LuaSnip
+  {
+    "L3MON4D3/LuaSnip",
+    keys = function()
+      return {}
+    end,
+  },
+  -- then: setup supertab in cmp
+  -- override nvim-cmp and add cmp-emoji
   -- change some telescope options and a keymap to browse plugin files
+  {
+    "hrsh7th/nvim-cmp",
+    dependencies = {
+      "hrsh7th/cmp-emoji", -- example dependency, adjust if needed
+    },
+    opts = function(_, opts)
+      -- Helper function to check if there are words before the cursor
+      local has_words_before = function()
+        unpack = unpack or table.unpack
+        local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+        return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+      end
+
+      local luasnip = require("luasnip")
+      local cmp = require("cmp")
+
+      -- Extend the default mappings with custom Tab and Shift-Tab behavior
+      opts.mapping = vim.tbl_extend("force", opts.mapping, {
+        ["<Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            cmp.select_next_item() -- Select next item if completion menu is open
+          elseif luasnip.expand_or_jumpable() then
+            luasnip.expand_or_jump() -- Expand or jump to the next snippet position
+          elseif has_words_before() then
+            cmp.complete() -- Trigger completion if there's a word before the cursor
+          else
+            fallback() -- Otherwise, fallback to default Tab behavior
+          end
+        end, { "i", "s" }), -- `i` for insert mode, `s` for select mode
+
+        ["<S-Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            cmp.select_prev_item() -- Select previous item if completion menu is open
+          elseif luasnip.jumpable(-1) then
+            luasnip.jump(-1) -- Jump backward in snippet placeholders
+          else
+            fallback() -- Fallback to default Shift-Tab behavior
+          end
+        end, { "i", "s" }),
+      })
+      -- Integrate nvim-highlight-colors for color formatting in completion
+      opts.formatting = {
+        format = require("nvim-highlight-colors").format,
+      }
+    end,
+  },
+
   {
     "nvim-telescope/telescope.nvim",
     keys = {
@@ -199,6 +257,7 @@ return {
   { import = "lazyvim.plugins.extras.lang.json" },
 
   -- add any tools you want to have installed below
+
   {
     "williamboman/mason.nvim",
     opts = {
@@ -209,57 +268,5 @@ return {
         "flake8",
       },
     },
-  },
-
-  -- Use <tab> for completion and snippets (supertab)
-  -- first: disable default <tab> and <s-tab> behavior in LuaSnip
-  {
-    "L3MON4D3/LuaSnip",
-    keys = function()
-      return {}
-    end,
-  },
-  -- then: setup supertab in cmp
-  {
-    "hrsh7th/nvim-cmp",
-    dependencies = {
-      "hrsh7th/cmp-emoji",
-    },
-    ---@param opts cmp.ConfigSchema
-    opts = function(_, opts)
-      local has_words_before = function()
-        unpack = unpack or table.unpack
-        local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-        return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-      end
-
-      local luasnip = require("luasnip")
-      local cmp = require("cmp")
-
-      opts.mapping = vim.tbl_extend("force", opts.mapping, {
-        ["<Tab>"] = cmp.mapping(function(fallback)
-          if cmp.visible() then
-            cmp.select_next_item()
-            -- You could replace the expand_or_jumpable() calls with expand_or_locally_jumpable()
-            -- this way you will only jump inside the snippet region
-          elseif luasnip.expand_or_jumpable() then
-            luasnip.expand_or_jump()
-          elseif has_words_before() then
-            cmp.complete()
-          else
-            fallback()
-          end
-        end, { "i", "s" }),
-        ["<S-Tab>"] = cmp.mapping(function(fallback)
-          if cmp.visible() then
-            cmp.select_prev_item()
-          elseif luasnip.jumpable(-1) then
-            luasnip.jump(-1)
-          else
-            fallback()
-          end
-        end, { "i", "s" }),
-      })
-    end,
   },
 }
