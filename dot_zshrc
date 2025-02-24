@@ -1,4 +1,4 @@
-if [[ -f "/opt/homebrew/bin/brew" ]] then
+if [[ -f "/opt/homebrew/bin/brew" ]]; then
   # If you're using macOS, you'll want this enabled
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
@@ -40,7 +40,7 @@ zinit snippet OMZP::sudo
 zinit snippet OMZP::command-not-found
 
 # Load completions
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -d
 
 zinit cdreplay -q
 
@@ -51,9 +51,9 @@ bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
 
 # History
+SAVEHIST=$HISTSIZE
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
-SAVEHIST=$HISTSIZE
 HISTDUP=erase
 setopt appendhistory
 setopt sharehistory
@@ -75,5 +75,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Initialize starship
 eval "$(starship init zsh)"
-
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
 
