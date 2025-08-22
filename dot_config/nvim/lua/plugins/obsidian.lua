@@ -17,8 +17,8 @@ return {
     },
     workspaces = {
       {
-        name = "dross.ob",
-        path = "~/dross.ob",
+        name = "burrow.ob",
+        path = "~/burrow.ob",
       },
     },
     completion = {
