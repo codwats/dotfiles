@@ -1,0 +1,407 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AppleMenu-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/sources",
+      "importPath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/Card.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/MediaPlayerCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/ProfileCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/SystemControlsCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/TimeDisplay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Utils/Formatters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "AppleMenu",
+      "moduleOutputPath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/Modules/AppleMenu.swiftmodule",
+      "objects" : [
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.swift.o",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "AppleMenu_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/Modules/AppleMenu.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaCard.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaSection.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarCard.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarSection.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/Card.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/MediaPlayerCard.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/ProfileCard.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/SystemControlsCard.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/TimeDisplay.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Utils/Formatters.swift",
+        "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/main.swift"
+      ],
+      "tempsPath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AppleMenu" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "AppleMenu",
+      "-incremental",
+      "-c",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaCard.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaSection.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarCard.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarSection.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/Card.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/MediaPlayerCard.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/ProfileCard.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/SystemControlsCard.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/TimeDisplay.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Utils/Formatters.swift",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/main.swift",
+      "-I",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "AppleMenu_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AppleMenu" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu-entitlement.plist"
+    },
+    "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/Card.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/MediaPlayerCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/ProfileCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/SystemControlsCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/TimeDisplay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Utils/Formatters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/sources"
+    },
+    "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.product/Objects.LinkFileList"
+    },
+    "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

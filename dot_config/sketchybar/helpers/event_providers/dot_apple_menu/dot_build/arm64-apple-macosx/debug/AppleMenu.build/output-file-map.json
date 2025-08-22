@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/master.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaCard.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaCard.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/AgendaSection.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/AgendaSection.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarCard.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarCard.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/CalendarSection.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/CalendarSection.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/Card.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Card.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/MediaPlayerCard.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/MediaPlayerCard.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/ProfileCard.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/ProfileCard.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/SystemControlsCard.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/SystemControlsCard.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Components/TimeDisplay.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/TimeDisplay.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/Utils/Formatters.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/Formatters.swiftdeps"
+  },
+  "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/Sources/AppleMenu/main.swift": {
+    "dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.d",
+    "object": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.swift.o",
+    "swiftmodule": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/codywatson/.config/sketchybar/helpers/event_providers/apple_menu/.build/arm64-apple-macosx/debug/AppleMenu.build/main.swiftdeps"
+  }
+}
