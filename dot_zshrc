@@ -78,3 +78,4 @@ eval "$(starship init zsh)"
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 
+export PATH=$PATH:$HOME/go/bin
