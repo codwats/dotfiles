@@ -1,5 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+command_timeout = 1500  # ms (try 1000–3000)
 format = """
 $username\
 $directory\
